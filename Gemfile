@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo_slug| "https://github.com/#{repo_slug}" }
 
-gem 'rails', '~> 4.2'
+gem 'rails', '~> 4.2', '>= 4.2.11'
 gem 'rails-i18n'
 gem 'responders', '~> 2.0'
 
@@ -25,7 +25,7 @@ gem 'aasm', '~> 4.12'
 gem 'bunny', '~> 2.9.0'
 gem 'cancancan'
 gem 'enumerize'
-gem 'datagrid'
+gem 'datagrid', '>= 1.5.7'
 gem 'kaminari'
 gem 'paranoid2'
 gem 'http_accept_language'
