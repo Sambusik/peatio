@@ -9,7 +9,7 @@ gem 'puma'
 gem 'mysql2', '~> 0.3.21'
 gem 'redis-rails'
 
-gem 'json'
+gem 'json', '>= 2.3.0'
 gem 'jbuilder'
 
 gem 'oauth2', github: 'oauth-xx/oauth2'
@@ -33,7 +33,7 @@ gem 'paper_trail', '~> 3.0.1'
 gem 'rails-observers'
 gem 'country_select', '~> 2.1.0'
 
-gem 'gon', '~> 5.2.0'
+gem 'gon', '~> 5.2.3'
 gem 'pusher'
 gem 'eventmachine', '~> 1.0.4', require: false
 gem 'em-websocket', '~> 0.5.1', require: false
@@ -57,7 +57,7 @@ gem 'grape-swagger-ui', '~> 2.2.8'
 gem 'grape-swagger-entity', '~> 0.2'
 gem 'grape_logging', '~> 1.8'
 gem 'rack-attack', '~> 4.3.1'
-gem 'easy_table'
+gem 'easy_table', '>= 0.0.8'
 gem 'faraday', '~> 0.12'
 gem 'jwt', '~> 2.1'
 gem 'email_validator', '~> 1.6'
