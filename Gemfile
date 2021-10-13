@@ -5,7 +5,7 @@ gem 'rails', '~> 4.2'
 gem 'rails-i18n'
 gem 'responders', '~> 2.0'
 
-gem 'puma'
+gem 'puma', '>= 4.3.9'
 gem 'mysql2', '~> 0.3.21'
 gem 'redis-rails'
 
