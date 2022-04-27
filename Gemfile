@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo_slug| "https://github.com/#{repo_slug}" }
 
-gem 'rails', '~> 4.2'
-gem 'rails-i18n'
-gem 'responders', '~> 2.0'
+gem 'rails', '~> 5.2', '>= 5.2.7.1'
+gem 'rails-i18n', '>= 5.0.0'
+gem 'responders', '~> 2.4', '>= 2.4.0'
 
 gem 'puma'
 gem 'mysql2', '~> 0.3.21'
@@ -33,12 +33,12 @@ gem 'paper_trail', '~> 3.0.1'
 gem 'rails-observers'
 gem 'country_select', '~> 2.1.0'
 
-gem 'gon', '~> 5.2.0'
+gem 'gon', '~> 5.2.3'
 gem 'pusher'
 gem 'eventmachine', '~> 1.0.4', require: false
 gem 'em-websocket', '~> 0.5.1', require: false
 
-gem 'simple_form', '~> 3.1.0'
+gem 'simple_form', '~> 4.0.0'
 gem 'sass-rails'
 gem 'coffee-rails'
 gem 'uglifier', '~> 4.1'
@@ -87,7 +87,7 @@ group :development do
 end
 
 group :test do
-  gem 'rspec-rails',         '~> 3.7'
+  gem 'rspec-rails', '~> 3.7', '>= 3.7.2'
   gem 'rspec-retry',         '~> 0.5'
   gem 'capybara',            '~> 2.17'
   gem 'selenium-webdriver',  '~> 3.8'
@@ -96,6 +96,6 @@ group :test do
   gem 'webmock',             '~> 3.3'
   gem 'database_cleaner',    '~> 1.6'
   gem 'mocha',               '~> 1.4', require: false
-  gem 'factory_bot_rails',   '~> 4.8'
+  gem 'factory_bot_rails', '~> 4.8', '>= 4.8.2'
   gem 'timecop',             '~> 0.9'
 end
