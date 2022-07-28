@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo_slug| "https://github.com/#{repo_slug}" }
 
-gem 'rails', '~> 4.2'
+gem 'rails', '~> 5.2', '>= 5.2.8.1'
 gem 'rails-i18n'
 gem 'responders', '~> 2.0'
 
@@ -29,7 +29,7 @@ gem 'datagrid'
 gem 'kaminari'
 gem 'paranoid2'
 gem 'http_accept_language'
-gem 'paper_trail', '~> 3.0.1'
+gem 'paper_trail', '~> 4.0.0'
 gem 'rails-observers'
 gem 'country_select', '~> 2.1.0'
 
@@ -83,7 +83,7 @@ group :development, :test do
 end
 
 group :development do
-  gem 'annotate', '~> 2.7'
+  gem 'annotate', '~> 2.7', '>= 2.7.2'
 end
 
 group :test do
