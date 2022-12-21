@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo_slug| "https://github.com/#{repo_slug}" }
 
-gem 'rails', '~> 4.2'
+gem 'rails', '~> 4.2', '>= 4.2.10'
 gem 'rails-i18n'
 gem 'responders', '~> 2.0'
 
@@ -39,7 +39,7 @@ gem 'eventmachine', '~> 1.0.4', require: false
 gem 'em-websocket', '~> 0.5.1', require: false
 
 gem 'simple_form', '~> 3.1.0'
-gem 'sass-rails'
+gem 'sass-rails', '>= 6.0.0'
 gem 'coffee-rails'
 gem 'uglifier', '~> 4.1'
 gem 'jquery-rails'
