@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 git_source(:github) { |repo_slug| "https://github.com/#{repo_slug}" }
 
 gem 'rails', '~> 4.2'
-gem 'rails-i18n'
+gem 'rails-i18n', '>= 8.0.0'
 gem 'responders', '~> 2.0'
 
 gem 'puma'
