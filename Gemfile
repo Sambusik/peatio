@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo_slug| "https://github.com/#{repo_slug}" }
 
-gem 'rails', '~> 4.2'
+gem 'rails', '~> 7.0', '>= 7.0.0'
 gem 'rails-i18n'
 gem 'responders', '~> 2.0'
 
@@ -25,7 +25,7 @@ gem 'aasm', '~> 4.12'
 gem 'bunny', '~> 2.9.0'
 gem 'cancancan'
 gem 'enumerize'
-gem 'datagrid'
+gem 'datagrid', '>= 1.7.0'
 gem 'kaminari'
 gem 'paranoid2'
 gem 'http_accept_language'
@@ -39,7 +39,7 @@ gem 'eventmachine', '~> 1.0.4', require: false
 gem 'em-websocket', '~> 0.5.1', require: false
 
 gem 'simple_form', '~> 3.1.0'
-gem 'sass-rails'
+gem 'sass-rails', '>= 6.0.0'
 gem 'coffee-rails'
 gem 'uglifier', '~> 4.1'
 gem 'jquery-rails'
@@ -50,7 +50,7 @@ gem 'bourbon'
 gem 'momentjs-rails'
 gem 'rbtree'
 gem 'liability-proof', '0.0.9'
-gem 'grape', '~> 1.0.1'
+gem 'grape', '~> 2.1.0'
 gem 'grape-entity', '~> 0.5.2'
 gem 'grape-swagger', '~> 0.27.3'
 gem 'grape-swagger-ui', '~> 2.2.8'
