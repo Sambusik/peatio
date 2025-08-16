@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo_slug| "https://github.com/#{repo_slug}" }
 
-gem 'rails', '~> 4.2'
+gem 'rails', '~> 7.1', '>= 7.1.5.2'
 gem 'rails-i18n'
 gem 'responders', '~> 2.0'
 
@@ -25,11 +25,11 @@ gem 'aasm', '~> 4.12'
 gem 'bunny', '~> 2.9.0'
 gem 'cancancan'
 gem 'enumerize'
-gem 'datagrid'
-gem 'kaminari'
+gem 'datagrid', '>= 1.5.8'
+gem 'kaminari', '>= 1.2.0'
 gem 'paranoid2'
 gem 'http_accept_language'
-gem 'paper_trail', '~> 3.0.1'
+gem 'paper_trail', '~> 10.3.1'
 gem 'rails-observers'
 gem 'country_select', '~> 2.1.0'
 
@@ -70,7 +70,7 @@ gem 'sentry-raven', '~> 2.7', require: false
 gem 'memoist', '~> 0.16'
 gem 'method-not-implemented', '~> 1.0'
 gem 'passgen', '~> 1.0'
-gem 'validates_lengths_from_database', '~> 0.7.0'
+gem 'validates_lengths_from_database', '~> 0.8.0'
 gem 'jwt-multisig', '~> 1.0'
 gem 'cash-addr', '~> 0.1', require: 'cash_addr'
 gem 'digest-sha3', '~> 1.1'
@@ -83,7 +83,7 @@ group :development, :test do
 end
 
 group :development do
-  gem 'annotate', '~> 2.7'
+  gem 'annotate', '~> 3.2', '>= 3.2.0'
 end
 
 group :test do
